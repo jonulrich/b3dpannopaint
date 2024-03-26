@@ -8,7 +8,23 @@ The template provides the custom operator `view3d.pivot` which replaces the `vie
 
 This allows navigation using the middle mouse button to have that google street view feel which is analogous to the way 2D artists pan in 2D software.
 
-Blender does not yet provide an adequate method of manipulating the viewport zoom and orientation via python so a camera is used this means that if the navigation gizmo is used or trackpad navigation the view can become disaligned with the camera, using the mmb to pivot will always snap the viewport back to camera mode.
+Blender does not yet provide an adequate method of manipulating the viewport zoom and orientation via python so a camera is used instead, this means that if the navigation gizmo is used or trackpad navigation the view can become disaligned with the camera, so for now using the mmb to pivot will always snap the viewport back to camera mode.
+
+Currently designed to work with Blender 4.0
+
+## Installation
+
+To install pannopaint via zip file:
+
+- Download the main repo of b3dpannopaint as a zip file
+
+- Rename "b3dpannopaint-main.zip" file to "pannopaint.zip"
+
+- Select "Install Application Template..." from the Blender menu
+
+- Select "pannopaint.zip" from the file file selector.
+
+alternatively the repo can be cloned directly into the [application template directory](https://docs.blender.org/manual/en/latest/advanced/app_templates.html#directory-layout)
 
 ## Todo
 
