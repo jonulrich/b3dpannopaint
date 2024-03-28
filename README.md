@@ -10,7 +10,7 @@ This allows navigation using the middle mouse button to have that google street 
 
 Blender does not yet provide an adequate method of manipulating the viewport zoom and orientation via python so a camera is used instead, this means that if the navigation gizmo is used or trackpad navigation the view can become disaligned with the camera, so for now using the mmb to pivot will always snap the viewport back to camera mode.
 
-Currently designed to work with Blender 4.0
+Currently confirmed to work on blender 4.0 and 4.1
 
 ## Installation
 
